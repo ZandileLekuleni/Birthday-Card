@@ -1,0 +1,29 @@
+
+.backgrnd {
+    background-image: url(/assets/ck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    background-position: center;
+    position: relative;
+    //z-index: 2x;
+}
+
+.title,
+.div {
+    position: absolute;
+    top: 0px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    left: 50px;
+}
+
+.from {
+    position: absolute;
+    font-size: 25px;
+    bottom: 30px;
+    right: 30px;
+    color: black;
+}
